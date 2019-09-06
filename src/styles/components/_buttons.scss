@@ -1,0 +1,54 @@
+.btn {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-decoration: none;
+
+    &--white {
+        background-color: #fff;
+        color: #000;
+    }
+
+    &--signup {
+        padding: 1rem 3rem;
+        text-transform: uppercase;
+    }
+}
+
+.cart__action-btn {
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 1.3rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+
+    &--primary {
+        background-color: #000;
+        color: #fff;
+    }
+
+    &--secondary {
+        background-color: #d6d3d3;
+        border: none;
+        color: #989797;
+
+        &:active, &:focus {
+            outline: none;
+        }
+    }
+
+    &--disabled {
+
+        background-color: #d6d3d3;
+        color: #989797;
+        cursor: auto;
+    }
+}

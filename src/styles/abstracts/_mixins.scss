@@ -1,0 +1,15 @@
+// 1440px bp
+
+@mixin respond($bp) {
+    @if ($bp == lg-screen) {
+        @media (max-width: 1440px) {
+            @content;
+        }
+    }
+
+    @if ($bp == md-screen) {
+        @media (max-width: 1250px) {
+            @content;
+        }
+    }
+}

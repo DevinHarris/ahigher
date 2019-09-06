@@ -1,0 +1,82 @@
+.hero {
+    align-items: flex-end;
+    // background-attachment: fixed;
+    // background-image: url(../../public/img/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    // justify-content: flex-start;
+    height: 95vh;
+    margin-top: 1rem;
+    // object-fit: cover;
+    width: 100%;
+
+    
+
+    &__inner {
+        padding: 10rem;
+    }
+
+    &__heading-text {
+        font-size: 7rem;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        font-size: 1.5rem;
+    }
+
+    &__link {
+        border: 1px solid #fff;
+        color: inherit;
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: .1rem;
+        margin-top: 1.3rem;
+        padding: 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all .5s ease;
+
+        &:hover {
+            background-color: #fff;
+           color: #000;
+        }
+    }
+
+    
+
+   
+
+    @include respond(lg-screen) {
+
+        height: 70vh;
+
+        &__inner {
+            padding: 5rem;
+        }
+
+        &__heading-text {
+            font-size: 4.5rem;
+        }
+
+        &__description {
+            font-size: 1.3rem;
+        }
+
+        &__link {
+            font-size: 1.6rem;
+            margin-top: 1.3rem;
+            padding: .8rem;
+    
+            &:hover {
+                background-color: #fff;
+               color: #000;
+            }
+        }
+    }
+}

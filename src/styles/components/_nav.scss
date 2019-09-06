@@ -1,0 +1,68 @@
+.nav {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 3rem;
+    width: 100%;
+    z-index: 10000;
+
+    &__links {
+        list-style-type: none;
+        
+    }
+
+    &__link-item {
+        display: inline-block;
+        margin-left: 1rem;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    &__link {
+        font-size: 1.3rem;
+        margin-right: 1.5rem;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+    }
+
+    &__logo {
+        font-size: 2rem;
+        font-weight: 900;
+        text-transform: uppercase;
+
+        a {
+            color: #fff;
+            letter-spacing: .3rem;
+            text-decoration: none;
+        }
+    }
+
+    &__action {
+        font-size: 1.6rem;
+        margin: 0 1.5rem;
+
+        &--btn {
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+
+            &:active, &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    @include respond(md-screen) {
+        padding: 1rem;
+    }
+}

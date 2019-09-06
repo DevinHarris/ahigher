@@ -1,0 +1,233 @@
+{
+    "products": {
+        "all_products": [
+                {
+                    "id": "542352",
+                    "name": "End Racism Tee",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                    "collection_tag": "FW19 - End Racism Collection",
+                    "collection_url": "/collections/end-racism",
+                    "price": "$20.00 USD",
+                    "sizes": ["S", "M", "L", "XL", "XXL"],
+                    "colors": ["Red", "Blue", "Black"],
+                    "availability": "In Stock",
+                    "imgs": ["../public/img/er-collection-page.jpg", "../public/img/er-collection-page-2.jpg", "../public/img/er-collection-page-3.jpg"],
+                    "video": "../public/img/er-collection-page-pants-vid-3.mp4"
+                },
+
+                {
+                    "id": "975367",
+                    "name": "End Racism Pants",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                    "collection_tag": "FW19 - End Racism Collection",
+                    "collection_url": "/collections/end-racism",
+                    "price": "$25.00 USD",
+                    "sizes": ["S", "M", "L", "XL"],
+                    "colors": ["Red", "Blue", "Black"],
+                    "availability": "In stock",
+                    "imgs": ["../public/img/er-collection-page-pants-2.jpg", "../public/img/er-collection-page-pants-1.jpg", "../public/img/er-collection-page-pants-3.jpg"],
+                    "video": "../public/img/er-collection-page-pants-vid-2.mp4"
+                },
+
+                {
+                    "id": "657456",
+                    "name": "End Racism Jacket",
+                    "description": "Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                    "collection_tag": "FW19 - End Racism Collection",
+                    "collection_url": "/collections/end-racism",
+                    "price": "$250.00 USD",
+                    "sizes": ["S", "M", "L", "XL", "XXL"],
+                    "colors": ["Red", "Blue", "Black"],
+                    "availability": "In stock",
+                    "imgs": ["../public/img/er-collection-page-jacket-1.jpg", "../public/img/er-collection-page-jacket-2.jpg", "../public/img/er-collection-page-jacket-3.jpg"]
+                },
+
+                {
+                    "id": "345867",
+                    "name": "End Racism Hat",
+                    "description": "Class aptent taciti sociosqu ad litora torquent eos. Aliquam ut sollicitudin nibh. Aenean vulputate condimentum ipsum eget congue. Donec finibus non enim nec sollicitudin. Nunc dictum mattis imperdiet. Maecenas egestas condimentum congue. Nullam interdum purus nec leo euismod, sed finibus est semper. Curabitur venenatis rhoncus purus, vitae ullamcorper eros maximus ac. In molestie imperdiet quam. Mauris ut viverra risus.",
+                    "collection_tag": "FW19 - End Racism Collection",
+                    "collection_url": "/collections/end-racism",
+                    "price": "$125.00 USD",
+                    "sizes": ["One Size - Fitted"],
+                    "colors": ["Red", "Blue", "Black"],
+                    "availability": "Sold Out",
+                    "imgs": ["../public/img/er-collection-page-hat-1.jpg", "../public/img/er-collection-page-hat-2.jpg", "../public/img/er-collection-page-hat-3.jpg"]
+                    
+                },
+
+                {
+                    "id": "956787",
+                    "name": "New Wave Tee",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscin retium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                    "collection_tag": "FW19 - New Wave Collection",
+                    "collection_url": "/collections/new-wave",
+                    "price": "$25.00 USD",
+                    "sizes": ["S", "M", "L", "XL", "XXL"],
+                    "colors": ["Red", "Blue", "Black"],
+                    "availability": "In Stock",
+                    "imgs": ["../public/img/nw-collection-tee-1.jpg", "../public/img/nw-collection-tee-2.jpg"]
+                    
+                },
+
+                {
+                    "id": "785645",
+                    "name": "New Wave Shorts",
+                    "description": "Lorem ipsum dolor sit amet, consectetur cerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                    "collection_tag": "FW19 - New Wave Collection",
+                    "collection_url": "/collections/new-wave",
+                    "price": "$35.00 USD",
+                    "sizes": ["S", "M", "L", "XL", "XXL"],
+                    "colors": ["Red", "Blue", "Black"],
+                    "availability": "In Stock",
+                    "imgs": ["../public/img/nw-collection-shorts-1.jpg", "../public/img/nw-collection-shorts-2.jpg"]
+                },
+
+                {
+                    "id": "879566",
+                    "name": "New Wave Pants",
+                    "description": "Lorem ipsum dolor sit amet, Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                    "collection_tag": "FW19 - New Wave Collection",
+                    "collection_url": "/collections/new-wave",
+                    "price": "$55.00 USD",
+                    "sizes": ["S", "M", "L", "XL", "XXL"],
+                    "colors": ["Red", "Blue", "Black"],
+                    "availability": "In Stock",
+                    "imgs": ["../public/img/nw-collection-pants-1.jpg", "../public/img/nw-collection-pants-2.jpg"]
+                },
+
+                {
+                    "id": "547456",
+                    "name": "New Wave Hoodie",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                    "collection_tag": "FW19 - New Wave Collection",
+                    "collection_url": "/collections/new-wave",
+                    "price": "$155.00 USD",
+                    "sizes": ["S", "M", "L", "XL", "XXL"],
+                    "colors": ["Red", "Blue", "Black"],
+                    "availability": "Sold Out",
+                    "imgs": ["../public/img/nw-collection-hoodie-1.jpg", "../public/img/nw-collection-hoodie-2.jpg"]
+                }
+        ],
+
+        "collections": [
+            {
+                "name": "End Racism",
+                "slug": "end-racism",
+                "page_title": "FW19 // The End Racism Collection",
+                "videos": ["../public/img/collection-bg-2.mp4"],
+                "imgs": ["../public/img/er-collection-4.jpg", "../public/img/er-collection-2.jpg", "../public/img/er-collection-3.jpg"],
+                "collection_items": [
+                    {
+                        "id": "542352",
+                        "name": "End Racism Tee",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                        "collection_tag": "FW19 - End Racism Collection",
+                        "price": "$20.00 USD",
+                        "sizes": ["S", "M", "L", "XL", "XXL"],
+                        "colors": ["Red", "Blue", "Black"],
+                        "availability": "In Stock",
+                        "imgs": ["../public/img/er-collection-page.jpg", "../public/img/er-collection-page-2.jpg", "../public/img/er-collection-page-3.jpg"],
+                        "video": "../public/img/er-collection-page-pants-vid-3.mp4"
+                    },
+
+                    {
+                        "id": "345867",
+                        "name": "End Racism Hat",
+                        "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ut sollicitudin nibh. Aenean vulputate condimentum ipsum eget congue. Donec finibus non enim nec sollicitudin. Nunc dictum mattis imperdiet. Maecenas egestas condimentum congue. Nullam interdum purus nec leo euismod, sed finibus est semper. Curabitur venenatis rhoncus purus, vitae ullamcorper eros maximus ac. In molestie imperdiet quam. Mauris ut viverra risus.",
+                        "collection_tag": "FW19 - End Racism Collection",
+                        "price": "$15.00 USD",
+                        "sizes": ["One Size - Fitted"],
+                        "colors": ["Red", "Blue", "Black"],
+                        "availability": "Sold Out",
+                        "imgs": ["../public/img/er-collection-page-hat-1.jpg", "../public/img/er-collection-page-hat-2.jpg", "../public/img/er-collection-page-hat-3.jpg"]
+                        
+                    },
+
+                    {
+                        "id": "975367",
+                        "name": "End Racism Pants",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                        "collection_tag": "FW19 - End Racism Collection",
+                        "price": "$25.00 USD",
+                        "sizes": ["S", "M", "L", "XL"],
+                        "colors": ["Red", "Blue", "Black"],
+                        "availability": "In stock",
+                        "imgs": ["../public/img/er-collection-page-pants-2.jpg", "../public/img/er-collection-page-pants-1.jpg", "../public/img/er-collection-page-pants-3.jpg"],
+                        "video": "../public/img/er-collection-page-pants-vid-2.mp4"
+                    },
+
+                    {
+                        "id": "657456",
+                        "name": "End Racism Jacket",
+                        "description": "Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                        "collection_tag": "FW19 - End Racism Collection",
+                        "price": "$250.00 USD",
+                        "sizes": ["S", "M", "L", "XL", "XXL"],
+                        "colors": ["Red", "Blue", "Black"],
+                        "availability": "In stock",
+                        "imgs": ["../public/img/er-collection-page-jacket-1.jpg", "../public/img/er-collection-page-jacket-2.jpg", "../public/img/er-collection-page-jacket-3.jpg"]
+                    }
+                ]
+            }, 
+            
+            {
+                "name": "New Wave",
+                "slug": "new-wave",
+                "page_title": "FW19 // The New Wave Collection",
+                "videos": ["../public/img/nw-collection-page-vid.mp4", "../public/img/nw-collection-doc-vid.mp4"],
+                "imgs": ["../public/img/nw-collection-1.jpg", "../public/img/nw-collection-2.jpg", "../public/img/nw-collection-3.jpg"],
+                "collection_items": [
+                    {
+                        "id": "956787",
+                        "name": "New Wave Tee",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                        "collection_tag": "FW19 - New Wave Collection",
+                        "price": "$20.00 USD",
+                        "sizes": ["S", "M", "L", "XL", "XXL"],
+                        "colors": ["Red", "Blue", "Black"],
+                        "availability": "In Stock",
+                        "imgs": ["../public/img/nw-collection-tee-1.jpg", "../public/img/nw-collection-tee-2.jpg"]
+                        
+                    },
+
+                    {
+                        "id": "785645",
+                        "name": "New Wave Shorts",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                        "collection_tag": "FW19 - New Wave Collection",
+                        "price": "$35.00 USD",
+                        "sizes": ["S", "M", "L", "XL", "XXL"],
+                        "colors": ["Red", "Blue", "Black"],
+                        "availability": "In Stock",
+                        "imgs": ["../public/img/nw-collection-shorts-1.jpg", "../public/img/nw-collection-shorts-2.jpg"]
+                    },
+
+                    {
+                        "id": "879566",
+                        "name": "New Wave Pants",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                        "collection_tag": "FW19 - New Wave Collection",
+                        "price": "$55.00 USD",
+                        "sizes": ["S", "M", "L", "XL", "XXL"],
+                        "colors": ["Red", "Blue", "Black"],
+                        "availability": "In Stock",
+                        "imgs": ["../public/img/nw-collection-pants-1.jpg", "../public/img/nw-collection-pants-2.jpg"]
+                    },
+
+                    {
+                        "id": "547456",
+                        "name": "New Wave Hoodie",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus odio ut pretium placerat. Quisque id nisl diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer lectus magna, pretium nec maximus pretium, blandit ac sem. Donec sit amet metus posuere, vehicula felis sed, efficitur metus. Phasellus sagittis bibendum felis non pulvinar. Suspendisse a sollicitudin odio. Nullam eros justo, imperdiet vitae viverra sed, pretium id eros. Maecenas eget vestibulum nunc. Sed eu sem fringilla, fermentum orci suscipit, tincidunt turpis.",
+                        "collection_tag": "FW19 - New Wave Collection",
+                        "price": "$155.00 USD",
+                        "sizes": ["S", "M", "L", "XL", "XXL"],
+                        "colors": ["Red", "Blue", "Black"],
+                        "availability": "Sold Out",
+                        "imgs": ["../public/img/nw-collection-hoodie-1.jpg", "../public/img/nw-collection-hoodie-2.jpg"]
+                    }
+                ]
+            }
+        ]
+    }
+}

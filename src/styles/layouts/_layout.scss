@@ -1,0 +1,10 @@
+.layout {
+    max-width: 90%;
+    &__container {
+        margin-top: 7rem;
+
+        @include respond(lg-screen) {
+            // max-width: 90%;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+.collection {
+
+    &-container {
+        margin: 15rem 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__name {
+        font-size: 4rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+        margin-bottom: 5rem;
+    }
+
+    &__video-container {
+        height: 95vh;
+        text-align: left;
+        width: 100%;
+
+        video {
+            // position: absolute;
+            height: 100%;
+            // left: 0;
+            // top: 0;
+            object-fit: cover;
+            overflow: hidden;
+            width: 100%;
+        }
+    }
+
+    &__text {
+        margin: 25rem auto;
+        width: 50%;
+
+        p {
+            font-size: 1.8rem;
+            font-weight: 300;
+            letter-spacing: .1rem;
+            line-height: 4rem;
+        }
+    }
+
+    &__video-caption {
+        font-size: 1.3rem;
+        padding-left: 2.5rem;
+    }
+
+    &__photos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    &__photo-container {
+
+    }
+
+    &__photo {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+
+    }
+
+    &__items {
+        
+        &-page {
+            margin: 10rem 0;
+        }
+
+        &__name {
+            font-size: 3rem;
+            font-weight: 400;
+        }
+    }
+
+    &__doc-video {
+        margin-top: 10rem;
+    }
+
+    @include respond(md-screen) {
+
+        &-container {
+            .collection__items {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        &__name {
+            font-size: 3rem;
+        }
+
+        &__video-container {
+            height: auto;
+        }
+
+        &__text {
+            margin: 6rem auto;
+            width: 95%;
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+
+        &__photos {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            width: 95%;
+        }
+
+        
+    }
+
+}

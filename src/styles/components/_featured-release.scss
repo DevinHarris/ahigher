@@ -1,0 +1,90 @@
+.featured-release {
+    margin-top: 15rem;
+    text-align: center;
+    width: 100%;
+
+    &__heading {
+        margin: 20rem auto;
+    }
+
+    &__heading-text {
+        font-size: 3rem;
+        margin: 2.5rem 0;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    &__items {
+        display: grid;
+        // grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        margin-top: 10rem;
+        padding: 0 7rem;
+    }
+
+    &__item {
+        // height: 500px;
+        // width: 33.3333333%;
+        // height: 70rem;
+
+        &__link {
+            color: inherit;
+            text-align: left;
+            text-decoration: none;
+        }
+
+        &__photo {
+            margin-bottom: 2rem;
+            width: 100%;
+
+        }
+
+        &__name {
+            
+            
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    @media (max-width: 1440px) {
+        margin-top: 0;
+
+        &__heading {
+            margin: 9rem auto;
+        }
+
+        &__heading-text {
+            font-size: 2rem;
+            margin: 2.5rem 0;
+        }
+
+        &__text {
+            font-size: 1rem;
+            margin: 0 auto;
+        }
+
+        
+        &__items {
+            margin-top: 0;
+            padding: 0 5rem;
+        }
+    }
+
+    @include respond(md-screen) {
+        &__items {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        &__text {
+            font-size: 1.2rem;
+            width: 95%;
+        }
+    }
+}
