@@ -16,9 +16,9 @@ class Nav extends React.Component {
         const cartEl = document.querySelector('.cart-container');
 
 
-        searchIcon.addEventListener('click', () => {
-            searchEl.classList.toggle('searchbar-visible');
-        })
+        // searchIcon.addEventListener('click', () => {
+        //     searchEl.classList.toggle('searchbar-visible');
+        // })
 
         cartIcon.addEventListener('click', () => {
             cartEl.classList.toggle('cart-visible');
@@ -35,12 +35,12 @@ class Nav extends React.Component {
         return (
             <nav className="nav">
                 <ul className="nav__links">
-                    <li className="nav__link-item">
+                    {/* <li className="nav__link-item">
                         <Link to="/collections/men" className="nav__link">Men</Link>
                     </li>
                     <li className="nav__link-item">
                         <Link to="/collections/women" className="nav__link">Women</Link>
-                    </li>
+                    </li> */}
                     <li className="nav__link-item">
                         <Link to="/shop" className="nav__link">Shop</Link>
                     </li>
@@ -52,11 +52,11 @@ class Nav extends React.Component {
                     <Link to="/">Ahigher</Link>
                 </h1>
                 <ul className="nav__links">
-                    <li className="nav__link-item">
+                    {/* <li className="nav__link-item">
                         <button className="nav__action nav__action--btn search-icon">
                             <FontAwesomeIcon icon={faSearch} />
                         </button>
-                    </li>
+                    </li> */}
                     <li className="nav__link-item">
                         <Link to="#" className="nav__action cart-icon">
                             <FontAwesomeIcon icon={faShoppingBag}/>
