@@ -21,7 +21,7 @@ const CollectionItem = ({ id, handle, images, title, options, variants }) => {
                                 </div>
                                 <div className="collection__item-info">
                                     <h1 className="collection-item__name">{title}</h1>
-                                    <span className="collection-item__price">{`$${variants[0].price} USD`}</span>
+                                    <span className="collection-item__price">{`$${variants[0].price} ${variants[0].priceV2.currencyCode}`}</span>
                                 </div>
                             </Link>
                         </div>

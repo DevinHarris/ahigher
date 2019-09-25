@@ -39,7 +39,7 @@ class Product extends React.Component {
         this.props.handleAddProduct({
             name: title,
             size: this.state.currSize,
-            price: `$${variants[0].price} USD`,
+            price: `$${variants[0].price} ${variants[0].priceV2.currencyCode}`,
             img: images[0].src,
             url: '/product/345867',
             variantId: this.state.currVariantId,
@@ -90,7 +90,7 @@ class Product extends React.Component {
                                             <span className="product__collection-tag">{selectedItem.collection_tag}</span>
                                         </Link> */}
                                         <h1 className="product__name">{title}</h1>
-                                        <p className="product__price">${variants && variants[0].price} USD</p>
+                                        <p className="product__price">${`${variants && variants[0].price} ${variants && variants[0].priceV2.currencyCode}`}</p>
                                         <p className="product__description">{description}</p>
                                         <p className="product__availability">Availability: {availableForSale ? 'IN STOCK' : 'SOLD OUT'}</p>
                                         <SelectSize variantsData={variants} eventHandler={this.handleClick} />
