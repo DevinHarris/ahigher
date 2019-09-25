@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import Client from 'shopify-buy';
 import Home from './Home';
 import Product from './Product';
 import Collection from './Collection';
@@ -9,46 +10,48 @@ import Checkout from './Checkout';
 import CheckOrderStatus from './CheckOrderStatus';
 
 import data from '../data.json';
-import { ProductProvider } from './ProductsContext';
+import ProductContext from './ProductsContext';
 
 class Ahigher extends React.Component {
     state = {
-        cart: [
-            {
-                name: "End Racism Tee - Blue",
-                size: "M",
-                price: "$20.00",
-                img: '../public/img/er-1.jpg',
-                url: '/product/542352'
-            },
+        // cart: [
 
-            {
-                name: "End Racism Pants - Black",
-                size: "M",
-                price: "$25.00",
-                img: '../public/img/er-3.jpg',
-                url: '/product/975367'
-            },
-
-            {
-                name: "End Racism Hat",
-                size: "One Size - Fitted",
-                price: "$15.00",
-                img: '../public/img/er-collection-page-hat-3.jpg',
-                url: '/product/345867'
-            },
-
-            {
-                name: "End Racism Jacket",
-                size: "L",
-                price: "$250.00",
-                img: '../public/img/er-collection-page-jacket-3.jpg',
-                url: '/product/657456'
-            }
-        ],
+        //     // {
+        //     //     name: "End Racism Jacket",
+        //     //     size: "L",
+        //     //     price: "$250.00",
+        //     //     img: '../public/img/er-collection-page-jacket-3.jpg',
+        //     //     url: '/product/657456'
+        //     // }
+        // ],
+        cart: [],
+        totalPrice: 0,
         data,
+        shopifyData: [],
         handleSearchChange: this.handleSearchChange,
-        searchTerm: ''
+        searchTerm: '',
+        currentProduct: {},
+        client: this.props.client
+    }
+
+    componentDidMount() {
+        
+
+        this.state.client.product.fetchAll().then(products => {
+            
+            this.setState({
+                shopifyData: products
+            })
+            console.log('working')
+        })
+
+        this.setState({
+            cart: JSON.parse(localStorage.getItem('cart')) || []
+        })
+    }
+
+    componentWillUnmount() {
+            localStorage.setItem('cart', JSON.stringify(this.state.cart));
     }
 
     handleSearchChange = (searchTerm) => {
@@ -57,21 +60,41 @@ class Ahigher extends React.Component {
         })
     }
 
+    handleProductChange = (product) => {
+        this.setState({
+            currentProduct: product
+        })
+    }
+
+    handleAddProduct = (product) => {
+        let cart = [...this.state.cart];
+        cart.push(product);
+
+        this.setState({
+            cart
+        })
+
+    }
+
+    calculateTotal = (products) => {
+
+    }
+
     render() {
         return (
-            <ProductProvider value={this.state}>
+            <ProductContext.Provider value={this.state}>
                 <BrowserRouter>
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route path="/collections/:id" component={Collection} />
                         <Route path="/shop" component={Shop} />
-                        <Route path="/product/:id" component={Product} />
+                        <Route path="/product/:id" component={(props) => <Product {...props} handleProductChange={this.handleProductChange} handleAddProduct={this.handleAddProduct} client={this.state.client} /> } />
                         <Route path="/search" component={SearchPage} />
                         <Route path="/checkout" component={Checkout} />
                         <Route path="/your-order" component={CheckOrderStatus}/>
                     </Switch>
                 </BrowserRouter>
-            </ProductProvider>
+            </ProductContext.Provider>
         )
     }
 }

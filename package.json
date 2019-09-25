@@ -39,6 +39,8 @@
     "express": "^4.17.1",
     "gatsby": "^2.14.0",
     "image-webpack-loader": "^5.0.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-modal": "^3.10.1",
+    "shopify-buy": "^2.7.1"
   }
 }

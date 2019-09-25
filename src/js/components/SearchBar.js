@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom'
-import { ProductConsumer } from './ProductsContext';
+import ProductContext from './ProductsContext';
 
 const SearchBar = () => (
     // state = {
@@ -17,7 +17,7 @@ const SearchBar = () => (
     //     this.props.history.push('/search');
     // }
 
-    <ProductConsumer>
+    <ProductContext.Consumer>
         {
             context => (
                 <div className="search-container">
@@ -29,7 +29,7 @@ const SearchBar = () => (
                 </div>
             )
         }
-    </ProductConsumer>
+    </ProductContext.Consumer>
         
 )
 
