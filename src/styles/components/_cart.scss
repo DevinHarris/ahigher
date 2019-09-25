@@ -97,6 +97,14 @@
         }
 
     }
+
+    @include respond(sm-screen) {
+        .cart {
+            &__heading {
+                padding-top: 3rem;
+            }
+        }
+    }
 }
 
 .cart-visible {

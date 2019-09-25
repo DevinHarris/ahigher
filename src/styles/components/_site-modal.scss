@@ -115,3 +115,9 @@
         }
     }
 }
+
+@include respond(md-screen) {
+    .signup__modal {
+        width: 90%;
+    }
+}
