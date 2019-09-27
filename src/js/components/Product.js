@@ -44,7 +44,6 @@ class Product extends React.Component {
             url: '/product/345867',
             variantId: this.state.currVariantId,
             quantity: 1
-
         })
     }
 

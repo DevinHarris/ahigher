@@ -15,7 +15,7 @@ class Cart extends React.Component {
         const { client, cart } = this.context;
 
         const cartEl = document.querySelector('.cart');
-        const removeBtn = document.querySelector('.cart__remove-btn');
+        const removeBtns = document.querySelectorAll('.cart__remove-btn');
 
 
         cartEl.addEventListener('submit', (e) => {
@@ -52,13 +52,16 @@ class Cart extends React.Component {
                 this.context.totalPrice = `$${checkout.totalPrice} USD`
             });
 
-            removeBtn.addEventListener('click', (e) => {
-                const lineItemsToRemove = [e.target.value];
 
-                client.checkout.removeLineItems(cartData.id, lineItemsToRemove).then(res => {
-                    console.log(res);
-                })
-            })
+
+            // removeBtn.addEventListener('click', (e) => {
+            //     const lineItemsToRemove = [e.target.value];
+            //     console.log(cartData.id, lineItemsToRemove);
+
+            //     // client.checkout.removeLineItems(cartData.id, lineItemsToRemove).then(res => {
+            //     //     console.log(res);
+            //     // })
+            // })
         }           
        })
 

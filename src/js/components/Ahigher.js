@@ -8,22 +8,13 @@ import Shop from './Shop';
 import SearchPage from './SearchPage';
 import Checkout from './Checkout';
 import CheckOrderStatus from './CheckOrderStatus';
+import NotFoundPage from './NotFoundPage';
 
 import data from '../data.json';
 import ProductContext from './ProductsContext';
 
 class Ahigher extends React.Component {
     state = {
-        // cart: [
-
-        //     // {
-        //     //     name: "End Racism Jacket",
-        //     //     size: "L",
-        //     //     price: "$250.00",
-        //     //     img: '../public/img/er-collection-page-jacket-3.jpg',
-        //     //     url: '/product/657456'
-        //     // }
-        // ],
         cart: [],
         totalPrice: 0,
         data,
@@ -42,17 +33,16 @@ class Ahigher extends React.Component {
             this.setState({
                 shopifyData: products
             })
-            console.log('working')
         })
 
-        this.setState({
-            cart: JSON.parse(localStorage.getItem('cart')) || []
-        })
+        // this.setState({
+        //     cart: JSON.parse(localStorage.getItem('cart')) || []
+        // })
     }
 
-    componentWillUnmount() {
-            localStorage.setItem('cart', JSON.stringify(this.state.cart));
-    }
+    // componentWillUnmount() {
+    //         localStorage.setItem('cart', JSON.stringify(this.state.cart));
+    // }
 
     handleSearchChange = (searchTerm) => {
         this.setState({
@@ -76,8 +66,13 @@ class Ahigher extends React.Component {
 
     }
 
-    calculateTotal = (products) => {
+    handleRemoveProduct = (productId) => {
+        let cart = [...this.state.cart];
+        let filteredCartData = cart.filter(item => item.id === productId);
 
+        this.setState({
+            cart: filteredCartData
+        })
     }
 
     render() {
@@ -92,6 +87,7 @@ class Ahigher extends React.Component {
                         <Route path="/search" component={SearchPage} />
                         <Route path="/checkout" component={Checkout} />
                         <Route path="/your-order" component={CheckOrderStatus}/>
+                        <Route component={NotFoundPage} />
                     </Switch>
                 </BrowserRouter>
             </ProductContext.Provider>
