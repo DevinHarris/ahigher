@@ -3,8 +3,9 @@ import Layout from './Layout';
 
 const NotFoundPage = () => (
     <Layout>
-        <div>
-            <h1>We're sorry, but page wasn't found.</h1>
+        <div className="not-found-page">
+            <h1>Oh, No</h1>
+            <p>We're sorry, but page wasn't found.</p>
         </div>
     </Layout>
 )

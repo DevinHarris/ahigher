@@ -54,13 +54,17 @@ class Cart extends React.Component {
 
 
 
-            // removeBtn.addEventListener('click', (e) => {
-            //     const lineItemsToRemove = [e.target.value];
-            //     console.log(cartData.id, lineItemsToRemove);
-
-            //     // client.checkout.removeLineItems(cartData.id, lineItemsToRemove).then(res => {
-            //     //     console.log(res);
-            //     // })
+            // removeBtns.forEach(btn => {
+            //     btn.addEventListener('click', (e) => {
+            //         let lineItemsToRemove = [];
+            //         let cartId = cartData.id;
+            //         lineItemsToRemove.push(e.target.value);
+            //         console.log(cartId, lineItemsToRemove);
+    
+            //         client.checkout.removeLineItems(cartId, lineItemsToRemove).then((checkout, err) => {
+            //             console.log(checkout.lineItems);
+            //         }).catch(err => console.log(err));
+            //     })
             // })
         }           
        })
@@ -69,6 +73,23 @@ class Cart extends React.Component {
     //    client.checkout.addLineItems(this.state.shopifyCheckout.id, lineItemsToAdd).then(checkout => {
     //         console.log(checkout)
     //     });
+
+    }
+    
+
+    handleRemoveItem = (itemId) => {
+        const { cart } = this.context;
+        let checkoutState = this.state.checkoutItems;
+        console.log('From handleRemoveItem', cart);
+
+        const filteredCart = checkoutState.filter(item => {
+            return itemId !== item.variantId
+        })
+
+
+        this.setState({
+            checkoutItems: filteredCart
+        })
 
     }
 
@@ -102,7 +123,7 @@ class Cart extends React.Component {
                                                             </Link>
                                                             <p className="cart__item-size">{item.size}</p>
                                                             <p className="cart__item-price">{item.price}</p>
-                                                            <button className="cart__remove-btn" value={item.variantId}>Remove</button>
+                                                            <button className="cart__remove-btn" value={item.variantId} onClick={(e) => {this.handleRemoveItem(e.target.value)}}>Remove</button>
                                                         </div>
                                                         
                                                     </div>

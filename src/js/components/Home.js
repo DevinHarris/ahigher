@@ -35,15 +35,15 @@ class Home extends React.Component {
                 <main className="main-content">
                     <div className="featured-release">
                         <div className="featured-release__heading">
-                            <h2 className="featured-release__heading-text">Latest: The End Racism Collection</h2>
+                            <h2 className="featured-release__heading-text">Latest: The Breath of Life Collection</h2>
                             <p className="featured-release__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis felis vitae augue consectetur, at commodo dolor consectetur. Nunc ac posuere quam. In lobortis risus lectus, non rhoncus purus mollis ut. Nunc ut risus ipsum. Aenean maximus bibendum condimentum.</p>
                         </div>
 
                         <div className="featured-release__items">
-                            <FeaturedItem photo="../public/img/er-1.jpg" name="End Racism Tee" id="542352" />
-                            <FeaturedItem photo="../public/img/er-4.jpg" name="End Racism Hat" id="345867" />
-                            <FeaturedItem photo="../public/img/er-3.jpg" name="End Racism Pants" id="975367" />
-                            <FeaturedItem photo="../public/img/er-6.jpg" name="End Racism Jacket" id="657456" />
+                            <FeaturedItem mediaSrc="../public/img/IMG_1908.mp4" name="Breath of Life: White / Blue Jacket" id="542352" isVideo />
+                            <FeaturedItem mediaSrc="../public/img/IMG_1932.jpg" name="Breath of Life: Blue / Black Jacket" id="345867" />
+                            <FeaturedItem mediaSrc="../public/img/IMG_1907.mp4" name="Breath of Life: Red / Black Jacket" id="975367" isVideo />
+                            {/* <FeaturedItem mediaSrc="../public/img/IMG_1909.mp4" name="Breath of Life: Green / Purple Jacket" id="657456"  isVideo /> */}
                         </div>
                     </div>
                     
