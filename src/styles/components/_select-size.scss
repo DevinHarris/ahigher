@@ -28,5 +28,16 @@
             background-color: #000;
             color: #fff;
         }
+
+        &--disabled {
+            border: 1px solid #eee;
+            color: #eee;
+            cursor: default;
+
+            &:hover {
+                background-color: inherit;
+                color: #eee;
+            }
+        }
     }
 }

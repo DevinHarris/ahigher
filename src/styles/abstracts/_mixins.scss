@@ -12,4 +12,10 @@
             @content;
         }
     }
+
+    @if ($bp == sm-screen) {
+        @media (max-width: 500px) {
+            @content;
+        }
+    }
 }

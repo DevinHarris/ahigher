@@ -23,13 +23,13 @@ class SelectSize extends React.Component {
     // }
 
     render() {
-        const { sizes, className } = this.props;
+        const { variantsData, className, eventHandler } = this.props;
 
         return (
                 <div className={`select-size__container ${className ? className : ''}`}>
                     {
-                        sizes.map(size => (
-                            <button className="select-size__btn" key={size}>{size}</button>
+                        variantsData && variantsData.map(variant => (
+                            variant.available ? <button className="select-size__btn" key={variant.id} onClick={eventHandler} value={variant.id}>{variant.title}</button> : <button disabled className="select-size__btn select-size__btn--disabled" key={variant.id}>{variant.title}</button>
                         ))
                     }
                 </div>

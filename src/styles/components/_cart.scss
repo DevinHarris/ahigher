@@ -5,8 +5,9 @@
     position: fixed;
     right: 0;
     top: 0;
+    overflow-y: scroll;
     width: 50rem;
-    z-index: 10000;
+    z-index: 60000;
     
     transform: translateX(100%);
 
@@ -67,6 +68,21 @@
                 font-size: 1.3rem;
             }
         }
+
+        &__empty {
+            margin: 1.5rem 0;
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        &__remove-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #838383;
+            font-size: 1rem;
+            margin-top: .5rem;
+        }
     }
 
     @include respond(md-screen) {
@@ -80,6 +96,14 @@
             }
         }
 
+    }
+
+    @include respond(sm-screen) {
+        .cart {
+            &__heading {
+                padding-top: 3rem;
+            }
+        }
     }
 }
 

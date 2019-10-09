@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './Layout';
-import { ProductConsumer } from './ProductsContext';
+import ProductContext from './ProductsContext';
 import CollectionItems from './CollectionItems';
 
 const Collection = ({ match }) => {
@@ -8,7 +8,7 @@ const Collection = ({ match }) => {
 
 
     return (
-        <ProductConsumer>
+        <ProductContext.Consumer>
             {
                 context => {
 
@@ -58,21 +58,17 @@ const Collection = ({ match }) => {
                                                  </div>
                                             ) : null
                                         }
-                                   
-                                
-
-                                
-
+                        
                                 <div className="collection__items-page">
                                     <h1 className="collection__items-name">Shop the collection.</h1>
-                                    <CollectionItems items={selectedCollection.collection_items} />
+                                    <CollectionItems items={context.shopifyData} />
                                 </div>
                             </div>
                         </Layout>
                    )
                 }
             }
-        </ProductConsumer>
+        </ProductContext.Consumer>
     )
 }
 

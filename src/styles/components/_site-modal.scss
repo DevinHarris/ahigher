@@ -1,0 +1,123 @@
+.signup {
+
+    &__modal {
+        align-items: center;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../public/img/bg-6.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1rem;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 700px;
+        left: 50%;
+        opacity: 0;
+        padding: 2rem;
+        position: fixed;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        -webkit-animation-delay: 5s;
+        -webkit-animation: fadeIn 2s ease forwards;
+
+        &:focus, &:active {
+            outline: none;
+        }
+    }
+
+    &__overlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    &__modal-heading {
+        margin-bottom: 3rem;
+    }
+
+    &__modal-description {
+        font-size: 1.2rem;
+    }
+
+    &__modal-container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: #fff;
+        width: 100%;
+    }
+
+    &__modal-text {
+        border: none;
+        color: #909090;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 300;
+        height: 5rem;
+        padding-left: 2rem;
+        text-align: center;
+        width: 100%;
+
+        &:focus, &:active {
+            outline: none;
+        }
+    }
+
+    &__modal-btn {
+        background: #000;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: 2.3rem;
+        text-transform: uppercase;
+        width: 100%;
+        transition: all .5s ease;
+
+        &:hover {
+            background-color: #909090;
+            color: #000;
+        }
+
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.modal {
+
+    &__close-btn {
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        position: absolute;
+        font-size: 2rem;
+        top: 50px;
+        right: 60px;
+
+        &:focus, &:active {
+            outline: none;
+        }
+    }
+}
+
+@include respond(md-screen) {
+    .signup__modal {
+        width: 90%;
+    }
+}

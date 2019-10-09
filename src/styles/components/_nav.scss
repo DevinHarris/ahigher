@@ -65,4 +65,25 @@
     @include respond(md-screen) {
         padding: 1rem;
     }
+
+
+    .cart {
+        &__icon {
+            position: relative;
+        }
+
+        &__count {
+            align-items: center;
+            background-color: rgb(231, 114, 114);
+            border-radius: 50%;
+            color: inherit;
+            display: flex;
+            justify-content: center;
+            height: 20px;
+            position: absolute;
+            top: -.7rem;
+            right: -2.5rem;
+            width: 20px;
+        }
+    }
 }
