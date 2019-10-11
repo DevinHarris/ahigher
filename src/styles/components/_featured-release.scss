@@ -79,7 +79,7 @@
 
     @include respond(md-screen) {
         &__items {
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
         }
 
         &__text {
