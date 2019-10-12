@@ -47,9 +47,14 @@
         &__name {
             
             
-            font-size: 1.5rem;
+            font-size: 1.7rem;
             font-weight: 400;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        &__video {
+            object-fit: cover;
+            width: 100%;
         }
     }
 
@@ -58,6 +63,7 @@
 
         &__heading {
             margin: 9rem auto;
+            margin-bottom: 6rem;
         }
 
         &__heading-text {
@@ -73,7 +79,7 @@
         
         &__items {
             margin-top: 0;
-            padding: 0 5rem;
+            padding: 0 1rem;
         }
     }
 

@@ -78,7 +78,7 @@ class Product extends React.Component {
                                         }
                                         {
                                             images && images.map((img, index) => (
-                                                <img className={`product__image product__image--${index + 1}`} src={img.src} />
+                                                <img className={`product__image product__image--${index + 1}`} src={img.src} key={index + 1} />
                                             ))
                                         }
                                     </div>

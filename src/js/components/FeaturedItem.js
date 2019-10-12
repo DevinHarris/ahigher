@@ -9,7 +9,7 @@ const FeaturedItem = ({ mediaSrc, name, id, isVideo }) => {
 
             {
                 isVideo ? (
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted className={isVideo ? 'featured-release__item__video' : ''}>
                         <source src={mediaSrc} type="video/mp4"></source>
                     </video>
                 ) : <img src={mediaSrc} className="featured-release__item__photo" />

@@ -78,18 +78,20 @@ class Cart extends React.Component {
     
 
     handleRemoveItem = (itemId) => {
-        const { cart } = this.context;
-        let checkoutState = this.state.checkoutItems;
-        console.log('From handleRemoveItem', cart);
+        // const { cart } = this.context;
+        // let checkoutState = this.state.checkoutItems;
+        // console.log('From handleRemoveItem', cart);
 
-        const filteredCart = checkoutState.filter(item => {
-            return itemId !== item.variantId
-        })
+        // const filteredCart = checkoutState.filter(item => {
+        //     return itemId !== item.variantId
+        // })
 
 
-        this.setState({
-            checkoutItems: filteredCart
-        })
+        // this.setState({
+        //     checkoutItems: filteredCart
+        // })
+
+        this.props.handleRemoveProduct(itemId);
 
     }
 
@@ -111,8 +113,8 @@ class Cart extends React.Component {
                                     <div className="cart__inner">
                                         <div className="cart__items  cart__border">
                                             {
-                                                context.cart.map(item => (
-                                                    <div className="cart__item">
+                                                context.cart.map((item, index) => (
+                                                    <div className="cart__item" key={index}>
                                                         <Link to={item.url}>
                                                             <img src={item.img} alt="Cart Image" className="cart__item-image" />
                                                         </Link>

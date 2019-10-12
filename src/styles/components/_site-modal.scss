@@ -15,7 +15,7 @@
         left: 50%;
         opacity: 0;
         padding: 2rem;
-        position: fixed;
+        position: absolute;
         text-align: center;
         top: 50%;
         transform: translate(-50%, -50%);
@@ -118,7 +118,19 @@
 }
 
 @include respond(md-screen) {
-    .signup__modal {
-        width: 90%;
+    .signup  {
+
+        &__modal {  
+            height: 60%;
+            width: 80%;
+        }
+
+        &__modal-text {
+            height: 3rem;
+        }
+
+        &__modal-btn {
+            padding: 1.3rem;
+        }
     }
 }
