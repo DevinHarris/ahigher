@@ -26,10 +26,10 @@ class Home extends React.Component {
                         </div>
                     </form>
                 </SiteModal>
-                <Hero bgImg="../public/img/bg-1.jpg"
-                    heroText="End Racism."
+                <Hero bgImg="../public/img/IMG_1959.jpg"
+                    heroText="Breath of Life."
                     description="Shop the latest from our FW19 Collection."
-                    link="/collections/end-racism"
+                    link="/collections/breath-of-life"
                     linkText="See the new collection"
                 />
                 <main className="main-content">
