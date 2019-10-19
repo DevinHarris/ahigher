@@ -16,16 +16,16 @@ class Home extends React.Component {
     render() {
         return (
             <Layout>
-                <SiteModal isModalOpen={true} className="signup__modal" overlayClassName="signup__overlay">
+                {/* <SiteModal isModalOpen={true} className="signup__modal" overlayClassName="signup__overlay">
                     <h1 className="signup__modal-heading">Sign up now for exclusive deals, discounts, and latest drop info.</h1>
                     <p className="signup__modal-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales magna a lectus luctus efficitur. Aenean vel dictum velit. Sed vulputate sodales porttitor. Sed ut aliquet mi. Suspendisse est lectus, congue eget turpis ut, tincidunt interdum nunc. Etiam pharetra iaculis varius. Proin et nisi malesuada, elementum eros lacinia, eleifend dolor. Cras a semper mauris, non placerat massa. Nullam tincidunt vel sem id gravida.</p>
-                    <form>
+                    <form>ss
                         <div className="signup__modal-container">
                             <input type="email" className="signup__modal-text" placeholder="Your email" required/>
                             <button className="signup__modal-btn">Sign up</button>
                         </div>
                     </form>
-                </SiteModal>
+                </SiteModal> */}
                 <Hero bgImg="../public/img/IMG_1959.jpg"
                     heroText="Breath of Life."
                     description="Shop the latest from our FW19 Collection."
