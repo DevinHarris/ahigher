@@ -114,11 +114,11 @@
 
         "collections": [
             {
-                "name": "End Racism",
-                "slug": "end-racism",
-                "page_title": "FW19 // The End Racism Collection",
-                "videos": ["../public/img/collection-bg-2.mp4"],
-                "imgs": ["../public/img/er-collection-4.jpg", "../public/img/er-collection-2.jpg", "../public/img/er-collection-3.jpg"],
+                "name": "Breath of Life",
+                "slug": "breath-of-life",
+                "page_title": "FW19 // Breath of Life",
+                "videos": ["../public/img/IMG_1964.mp4"],
+                "imgs": ["../public/img/IMG_1949.jpg", "../public/img/IMG_1952.jpg", "../public/img/IMG_1957.jpg"],
                 "collection_items": [
                     {
                         "id": "542352",

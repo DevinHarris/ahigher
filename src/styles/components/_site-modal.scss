@@ -15,11 +15,12 @@
         left: 50%;
         opacity: 0;
         padding: 2rem;
-        position: fixed;
+        position: absolute;
         text-align: center;
         top: 50%;
         transform: translate(-50%, -50%);
         width: 50%;
+        z-index: 10000000;
         -webkit-animation-delay: 5s;
         -webkit-animation: fadeIn 2s ease forwards;
 
@@ -117,7 +118,19 @@
 }
 
 @include respond(md-screen) {
-    .signup__modal {
-        width: 90%;
+    .signup  {
+
+        &__modal {  
+            height: 60%;
+            width: 80%;
+        }
+
+        &__modal-text {
+            height: 3rem;
+        }
+
+        &__modal-btn {
+            padding: 1.3rem;
+        }
     }
 }

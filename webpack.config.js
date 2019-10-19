@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
     entry: "./src/js/app.js",
     output: {
-        path: '/public/js/',
+        path: path.resolve(__dirname, 'public/js'),
         publicPath: '/',
         filename: 'bundle.js'
     },
@@ -43,7 +43,7 @@ module.exports = {
     ],
 
     devServer: {
-        host: '192.168.1.68',
+        // host: '192.168.1.68',
         port: 8080,
         https: true,
         hot: true,
