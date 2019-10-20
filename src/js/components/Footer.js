@@ -15,10 +15,10 @@ const Footer = () => (
                     <h3 className="footer__link-heading">Help</h3>
                     <ul className="footer__links">
                         <li className="footer__link">
-                            <Link to="#">FAQs</Link>
+                            <Link to="/faq">FAQs</Link>
                         </li>
                         <li className="footer__link">
-                            <Link to="#">Delivery and Returns</Link>
+                            <Link to="/delivery">Delivery and Returns</Link>
                         </li>
                         <li className="footer__link">
                             <Link to="#">Size Guides</Link>
@@ -33,13 +33,7 @@ const Footer = () => (
                     <h3 className="footer__link-heading">Collections</h3>
                     <ul className="footer__links">
                         <li className="footer__link">
-                            <Link to="/collections/end-racism">End Racism</Link>
-                        </li>
-                        <li className="footer__link">
-                            <Link to="/collections/new-wave">New Wave</Link>
-                        </li>
-                        <li className="footer__link">
-                            <Link to="/collections/underdog">Underdog</Link>
+                            <Link to="/collections/breath-of-life">Breath of Life</Link>
                         </li>
                     </ul>
                 </div>
@@ -62,36 +56,36 @@ const Footer = () => (
                     <h3 className="footer__link-heading">Social</h3>
                     <ul className="footer__links">
                         <li className="footer__link social__links">
-                           <a href="https://instagram.com" target="_blank">
+                           <a href="https://instagram.com/ahigher_clothing" target="_blank">
                                <FontAwesomeIcon icon={faInstagram} />
                            </a>
                         </li>
-                        <li className="footer__link social__links">
+                        {/* <li className="footer__link social__links">
                            <a href="https://www.twitter.com" target="_blank">
                                <FontAwesomeIcon icon={faTwitter} />
                            </a>
-                        </li>
+                        </li> */}
                         <li className="footer__link social__links">
-                           <a href="https://www.facebook.com" target="_blank">
+                           <a href="https://www.facebook.com/ahigher" target="_blank">
                                <FontAwesomeIcon icon={faFacebookF} />
                            </a>
                         </li>
-                        <li className="footer__link social__links">
+                        {/* <li className="footer__link social__links">
                            <a href="https://www.youtube.com" target="_blank">
                                <FontAwesomeIcon icon={faYoutube} />
                            </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 
-                <div className="footer__link-col">
+                {/* <div className="footer__link-col">
                     <h3 className="footer__link-heading">Sign Up for news and updates</h3>
                     <div className="footer__signup-form-container">
                         <form className="footer__signup-form">
                             <input type="email" placeholder="Email" className="footer__signup-form__input" />
                         </form>
                     </div>
-                </div>
+                </div> */}
 
                 
             </div>

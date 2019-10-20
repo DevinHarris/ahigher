@@ -31,12 +31,13 @@ class Home extends React.Component {
                     description="Shop the latest from our FW19 Collection."
                     link="/collections/breath-of-life"
                     linkText="See the new collection"
+                    backgroundPos="0 22%"
                 />
                 <main className="main-content">
                     <div className="featured-release">
                         <div className="featured-release__heading">
                             <h2 className="featured-release__heading-text">Latest: The Breath of Life Collection</h2>
-                            <p className="featured-release__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis felis vitae augue consectetur, at commodo dolor consectetur. Nunc ac posuere quam. In lobortis risus lectus, non rhoncus purus mollis ut. Nunc ut risus ipsum. Aenean maximus bibendum condimentum.</p>
+                            <p className="featured-release__text">Shop the latest jackets from our fall / winter collection -- Breath of Life. Each jacket features 100% premium ripstop with an inner mesh on the interior.</p>
                         </div>
 
                         <div className="featured-release__items">
@@ -47,11 +48,12 @@ class Home extends React.Component {
                         </div>
                     </div>
                     
-                    <Hero bgImg="../public/img/bg-5.jpg" //bg-8
-                        heroText="The New Wave is Here."
-                        description="Your vibe, your way. The new wave is now."
+                    <Hero bgImg="../public/img/oly-3.jpg" //bg-8
+                        heroText="The Olympics is coming."
+                        description="Get a headstart on and grab your olympics gear."
                         link="/collections/new-wave"
                         linkText="Preview the upcoming collection"
+                        backgroundPos="0 30%"
                         contentAlign="flex-start"
                     />
 

@@ -9,6 +9,8 @@ import SearchPage from './SearchPage';
 import Checkout from './Checkout';
 import CheckOrderStatus from './CheckOrderStatus';
 import NotFoundPage from './NotFoundPage';
+import FAQ from './FAQ';
+import DeliverandReturns from './DeliveryandReturns';
 
 import data from '../data.json';
 import ProductContext from './ProductsContext';
@@ -87,6 +89,8 @@ class Ahigher extends React.Component {
                         <Route path="/search" component={SearchPage} />
                         <Route path="/checkout" component={Checkout} />
                         <Route path="/your-order" component={CheckOrderStatus}/>
+                        <Route path="/faq" component={FAQ} />
+                        <Route path="/delivery" component={DeliverandReturns} />
                         <Route component={NotFoundPage} />
                     </Switch>
                 </BrowserRouter>
