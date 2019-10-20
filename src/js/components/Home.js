@@ -41,7 +41,7 @@ class Home extends React.Component {
 
                         <div className="featured-release__items">
                             <FeaturedItem mediaSrc="../public/img/IMG_1908.mp4" name="Breath of Life: White / Blue Jacket" id="542352" isVideo />
-                            <FeaturedItem mediaSrc="../public/img/IMG_1932.jpg" name="Breath of Life: Blue / Black Jacket" id="345867" />
+                            <FeaturedItem mediaSrc="../public/img/IMG_1910.mp4" name="Breath of Life: Blue / Black Jacket" id="345867" isVideo />
                             <FeaturedItem mediaSrc="../public/img/IMG_1907.mp4" name="Breath of Life: Red / Black Jacket" id="975367" isVideo />
                             {/* <FeaturedItem mediaSrc="../public/img/IMG_1909.mp4" name="Breath of Life: Green / Purple Jacket" id="657456"  isVideo /> */}
                         </div>
@@ -55,7 +55,7 @@ class Home extends React.Component {
                         contentAlign="flex-start"
                     />
 
-                    <Hero bgImg="../public/img/bg-9.jpg" //bg-8
+                    {/* <Hero bgImg="../public/img/bg-9.jpg" //bg-8
                         heroText="Be the underdog."
                         description="Do you. Be the best you."
                         link="/collections/new-wave"
@@ -66,7 +66,7 @@ class Home extends React.Component {
 
                     <div>
                         <MinHero bgImg="../public/img/bg-2.jpg" contentAlign="flex-end"/>
-                    </div>
+                    </div> */}
                     <div>
                         <SignupBanner />
                     </div>
