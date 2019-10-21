@@ -5,7 +5,7 @@ const DeliveryandReturns = () => {
     return (
         <Layout>
             <div>
-                <h1>Deliver and Returns</h1>
+                <h1>Delivery and Returns</h1>
             </div>
         </Layout>
     )
