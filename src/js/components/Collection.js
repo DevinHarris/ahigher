@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from './Layout';
 import ProductContext from './ProductsContext';
 import CollectionItems from './CollectionItems';
-
+import { Helmet } from 'react-helmet';
 const Collection = ({ match }) => {
     
 
@@ -20,6 +20,9 @@ const Collection = ({ match }) => {
                     console.log(selectedCollection);
                    return (
                     <Layout>
+                        <Helmet>
+                            <title>{`${selectedCollection.page_title}. A collection by Ahigher.`}</title>
+                        </Helmet>
                         <div className="collection-container">
                                 <h1 className="collection__name">{selectedCollection.page_title}</h1>
                                 <div className="collection__video-container">

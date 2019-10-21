@@ -35,6 +35,9 @@ const Footer = () => (
                         <li className="footer__link">
                             <Link to="/collections/breath-of-life">Breath of Life</Link>
                         </li>
+                        <li className="footer__link">
+                            <Link to="/collections/olympics">2020 Olynpics (Preview)</Link>
+                        </li>
                     </ul>
                 </div>
 

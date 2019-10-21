@@ -4,6 +4,7 @@ import Client from 'shopify-buy';
 import Layout from './Layout';
 import ProductContext from './ProductsContext';
 import SelectSize from './SelectSize';
+import { Helmet } from 'react-helmet';
 
 class Product extends React.Component {
 
@@ -65,7 +66,10 @@ class Product extends React.Component {
         // console.log(this.state.product)
 
         return (
-                  <Layout> 
+                  <Layout>
+                      <Helmet>
+                          <title>{`${title} - a piece by Ahigher.`}</title>
+                      </Helmet>
                       <div className="product-page-container">
                             <div className="product__container">
                                <div className="product__col product__photos">

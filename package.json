@@ -41,6 +41,7 @@
     "image-webpack-loader": "^5.0.0",
     "react-helmet": "^5.2.1",
     "react-modal": "^3.10.1",
+    "react-router-scroll-top": "^0.2.1",
     "shopify-buy": "^2.7.1"
   }
 }

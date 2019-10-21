@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './Layout';
 import ProductContext from './ProductsContext';
 import CollectionItems from './CollectionItems';
+import { Helmet } from 'react-helmet';
 
 const Shop = () => (
     <ProductContext.Consumer>
@@ -11,6 +12,9 @@ const Shop = () => (
 
                 return (
                     <Layout>
+                        <Helmet>
+                            <title>{`Shop`}</title>
+                        </Helmet>
                         <div className="shop-page__container">
                             {/* <aside className="shop-page__sidebar">
                                 <h1>Sidebar</h1>

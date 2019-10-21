@@ -6,6 +6,7 @@ import FeaturedItem from './FeaturedItem';
 import MinHero from './MinHero';
 import SignupBanner from './SignupBanner';
 import SiteModal from './SiteModal';
+import { Helmet } from 'react-helmet';
 
 class Home extends React.Component {
 
@@ -26,6 +27,9 @@ class Home extends React.Component {
                         </div>
                     </form>
                 </SiteModal> */}
+                <Helmet>
+                    <title>{`Ahigher. A streetwear brand.`}</title>
+                </Helmet>
                 <Hero bgImg="../public/img/IMG_1959.jpg"
                     heroText="Breath of Life."
                     description="Shop the latest from our FW19 Collection."

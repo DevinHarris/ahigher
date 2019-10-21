@@ -11,6 +11,7 @@ import CheckOrderStatus from './CheckOrderStatus';
 import NotFoundPage from './NotFoundPage';
 import FAQ from './FAQ';
 import DeliverandReturns from './DeliveryandReturns';
+import ScrollToTop from 'react-router-scroll-top';
 
 import data from '../data.json';
 import ProductContext from './ProductsContext';
@@ -81,18 +82,20 @@ class Ahigher extends React.Component {
         return (
             <ProductContext.Provider value={this.state}>
                 <HashRouter>
-                    <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route path="/collections/:id" component={Collection} />
-                        <Route path="/shop" component={Shop} />
-                        <Route path="/product/:id" component={(props) => <Product {...props} handleProductChange={this.handleProductChange} handleAddProduct={this.handleAddProduct} client={this.state.client} /> } />
-                        <Route path="/search" component={SearchPage} />
-                        <Route path="/checkout" component={Checkout} />
-                        <Route path="/your-order" component={CheckOrderStatus}/>
-                        <Route path="/faq" component={FAQ} />
-                        <Route path="/delivery" component={DeliverandReturns} />
-                        <Route component={NotFoundPage} />
-                    </Switch>
+                    <ScrollToTop>
+                        <Switch>
+                            <Route exact path="/" component={Home} />
+                            <Route path="/collections/:id" component={Collection} />
+                            <Route path="/shop" component={Shop} />
+                            <Route path="/product/:id" component={(props) => <Product {...props} handleProductChange={this.handleProductChange} handleAddProduct={this.handleAddProduct} client={this.state.client} /> } />
+                            <Route path="/search" component={SearchPage} />
+                            <Route path="/checkout" component={Checkout} />
+                            <Route path="/your-order" component={CheckOrderStatus}/>
+                            <Route path="/faq" component={FAQ} />
+                            <Route path="/delivery" component={DeliverandReturns} />
+                            <Route component={NotFoundPage} />
+                        </Switch>
+                    </ScrollToTop>
                 </HashRouter>
             </ProductContext.Provider>
         )
