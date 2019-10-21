@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { Switch, Route, BrowserRouter, HashRouter } from 'react-router-dom';
 import Client from 'shopify-buy';
 import Home from './Home';
 import Product from './Product';
@@ -80,7 +80,7 @@ class Ahigher extends React.Component {
     render() {
         return (
             <ProductContext.Provider value={this.state}>
-                <BrowserRouter>
+                <HashRouter>
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route path="/collections/:id" component={Collection} />
@@ -93,7 +93,7 @@ class Ahigher extends React.Component {
                         <Route path="/delivery" component={DeliverandReturns} />
                         <Route component={NotFoundPage} />
                     </Switch>
-                </BrowserRouter>
+                </HashRouter>
             </ProductContext.Provider>
         )
     }
