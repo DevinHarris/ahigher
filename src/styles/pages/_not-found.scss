@@ -1,0 +1,20 @@
+.not-found-page {
+
+    &__container {
+        margin: 20rem auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    &__header {
+        font-size: 4rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+
+    &__text {
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    
+}

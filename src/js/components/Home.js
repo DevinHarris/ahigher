@@ -36,8 +36,8 @@ class Home extends React.Component {
                 <main className="main-content">
                     <div className="featured-release">
                         <div className="featured-release__heading">
-                            <h2 className="featured-release__heading-text">Latest: The Breath of Life Collection</h2>
-                            <p className="featured-release__text">Shop the latest jackets from our fall / winter collection -- Breath of Life. Each jacket features 100% premium ripstop with an inner mesh on the interior.</p>
+                            <h2 className="featured-release__heading-text">The Latest: The Breath of Life Collection</h2>
+                            <p className="featured-release__text">Shop the latest jackets from our fall / winter collection -- Breath of Life. Each jacket features 100% premium ripstop with an inner mesh interior.</p>
                         </div>
 
                         <div className="featured-release__items">
@@ -50,8 +50,8 @@ class Home extends React.Component {
                     
                     <Hero bgImg="../public/img/oly-3.jpg" //bg-8
                         heroText="The Olympics is coming."
-                        description="Get a headstart on and grab your olympics gear."
-                        link="/collections/new-wave"
+                        description="Get a headstart and grab your olympics gear."
+                        link="/collections/olympics"
                         linkText="Preview the upcoming collection"
                         backgroundPos="0 30%"
                         contentAlign="flex-start"
@@ -69,9 +69,9 @@ class Home extends React.Component {
                     <div>
                         <MinHero bgImg="../public/img/bg-2.jpg" contentAlign="flex-end"/>
                     </div> */}
-                    <div>
+                    {/* <div>
                         <SignupBanner />
-                    </div>
+                    </div> */}
                 </main>
             </Layout>
         )

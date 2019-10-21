@@ -119,7 +119,7 @@
                 "page_title": "FW19 // Breath of Life",
                 "videos": ["../public/img/IMG_1964.mp4"],
                 "imgs": ["../public/img/IMG_1949.jpg", "../public/img/IMG_1952.jpg", "../public/img/IMG_1957.jpg"],
-                "collection_text": "Ahigher doesn't condone or beileve in violence. However, what we do believe is sometimes you have to stand up for what you believe in, take chances in life, and to never back down.",
+                "collection_text": "Ahigher does not believe in, condone, or promote violence of any kind. However, what we do believe in, is standing up for others and for what you believe in, taking chances in life, and never backing down from what life throws at you.",
                 "collection_items": [
                     {
                         "id": "542352",
@@ -175,11 +175,12 @@
             }, 
             
             {
-                "name": "New Wave",
-                "slug": "new-wave",
-                "page_title": "FW19 // The New Wave Collection",
-                "videos": ["../public/img/nw-collection-page-vid.mp4", "../public/img/nw-collection-doc-vid.mp4"],
-                "imgs": ["../public/img/nw-collection-1.jpg", "../public/img/nw-collection-2.jpg", "../public/img/nw-collection-3.jpg"],
+                "name": "SS2020 Olympics",
+                "slug": "olympics",
+                "page_title": "SS2020 // The Olympics Collection",
+                "videos": ["../public/img/oly-vid.mp4"],
+                "imgs": ["../public/img/oly-pic-2.jpg", "../public/img/oly-pic-5.jpg", "../public/img/oly-pic-4.jpg"],
+                "collection_text": "Inspired by the Olympic games.",
                 "collection_items": [
                     {
                         "id": "956787",

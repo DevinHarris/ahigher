@@ -18,7 +18,7 @@ const Shop = () => (
                             <div className="shop-page__main">
                                 <div className="shop-page__main-heading-container">
                                     <h1 className="shop-page__main-title">Our entire range</h1>
-                                    <p className="shop-page__main-description">Each one of our products are crafted with attention to detail and inspiration which can be felt when wearing one of our pieces.</p>
+                                    <p className="shop-page__main-description">Each one of our products is crafted with premium materials, attention to detail, and inspiration which can be felt when wearing one of our exclusive pieces.</p>
                                 </div>
                                 <div className="shop-page__products-container">
                                     <CollectionItems items={context.shopifyData} />
