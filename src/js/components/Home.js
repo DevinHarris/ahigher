@@ -28,9 +28,9 @@ class Home extends React.Component {
                     </form>
                 </SiteModal> */}
                 <Helmet>
-                    <title>{`Ahigher. A streetwear brand.`}</title>
+                    <title>{`Ahigher.`}</title>
                 </Helmet>
-                <Hero bgImg="../public/img/IMG_1959.jpg"
+                <Hero bgImg="../public/img/IMG_1952.jpg"
                     heroText="Breath of Life."
                     description="Shop the latest from our FW19 Collection."
                     link="/collections/breath-of-life"
@@ -55,7 +55,6 @@ class Home extends React.Component {
                     <Hero bgImg="../public/img/oly-3.jpg" //bg-8
                         heroText="The Olympics is coming."
                         description="Get a headstart and grab your olympics gear."
-                        link="/collections/olympics"
                         linkText="Preview the upcoming collection"
                         backgroundPos="0 30%"
                         contentAlign="flex-start"

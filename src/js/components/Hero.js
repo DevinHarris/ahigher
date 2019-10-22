@@ -6,7 +6,10 @@ const Hero = ({ bgImg, heroText, link, linkText, description, contentAlign, back
             <div className="hero__inner">
                 <h1 className="hero__heading-text">{heroText}</h1>
                 <p className="hero__description">{description}</p>
-                <Link to={link} className="hero__link">{linkText}</Link>
+                {
+                    link ? <Link to={link} className="hero__link">{linkText}</Link> : null
+
+                }
             </div>
     </div>
 )

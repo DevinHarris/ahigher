@@ -1,0 +1,21 @@
+.faq-page {
+    margin: 20rem auto;
+    text-align: center;
+    width: 90%;
+
+    &__question-container {
+        margin-top: 3rem;
+    }
+
+    &__question {
+        font-size: 3rem;
+        font-weight: 400;
+        letter-spacing: .1rem;
+    }
+
+    &__answer {
+        margin-top: 1rem;
+        font-size: 1.7rem;
+        font-weight: 300;
+    }
+}
