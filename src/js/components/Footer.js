@@ -69,7 +69,7 @@ const Footer = () => (
                            </a>
                         </li> */}
                         <li className="footer__link social__links">
-                           <a href="https://www.facebook.com/ahigher" target="_blank">
+                           <a href="https://www.facebook.com/AhigherClothing/" target="_blank">
                                <FontAwesomeIcon icon={faFacebookF} />
                            </a>
                         </li>
