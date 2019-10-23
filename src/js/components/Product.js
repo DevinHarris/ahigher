@@ -68,7 +68,7 @@ class Product extends React.Component {
         return (
                   <Layout>
                       <Helmet>
-                          <title>{`${title} - a piece by Ahigher.`}</title>
+                          <title>{`${title} | A piece by Ahigher.`}</title>
                       </Helmet>
                       <div className="product-page-container">
                             <div className="product__container">

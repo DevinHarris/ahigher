@@ -21,7 +21,7 @@ const Collection = ({ match }) => {
                    return (
                     <Layout>
                         <Helmet>
-                            <title>{`${selectedCollection.page_title}. A collection by Ahigher.`}</title>
+                            <title>{`${selectedCollection.page_title}. | A collection by Ahigher.`}</title>
                         </Helmet>
                         <div className="collection-container">
                                 <h1 className="collection__name">{selectedCollection.page_title}</h1>

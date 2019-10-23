@@ -6,12 +6,12 @@ const FAQ = () => {
     return (
         <Layout>
             <Helmet>
-                <title>{`Frequently Asked Questions`}</title>
+                <title>{`Frequently Asked Questions | Ahigher`}</title>
             </Helmet>
             <div className="faq-page">
                 <div className="faq-page__question-container">
                     <h1 className="faq-page__question">What does Ahigher mean?</h1>
-                    <p className="faq-page__answer">Ahigher means never giving up and always higher in life.</p>
+                    <p className="faq-page__answer">Ahigher means never giving up and always elevating yourself in life to go higher than you once were.</p>
                 </div>
                 <div className="faq-page__question-container">
                     <h1 className="faq-page__question">What's the best way to contact you?</h1>

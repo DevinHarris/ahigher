@@ -13,7 +13,7 @@ const Shop = () => (
                 return (
                     <Layout>
                         <Helmet>
-                            <title>{`Shop`}</title>
+                            <title>{`Shop | Ahigher`}</title>
                         </Helmet>
                         <div className="shop-page__container">
                             {/* <aside className="shop-page__sidebar">
