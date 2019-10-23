@@ -54,8 +54,7 @@ class Home extends React.Component {
                     
                     <Hero bgImg="../public/img/oly-3.jpg" //bg-8
                         heroText="The Olympics is coming."
-                        description="Get a headstart and grab your olympics gear."
-                        linkText="Preview the upcoming collection"
+                        description="An upcoming collection from Ahigher."
                         backgroundPos="0 30%"
                         contentAlign="flex-start"
                     />
