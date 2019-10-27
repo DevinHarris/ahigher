@@ -8,7 +8,7 @@ const DeliveryandReturns = () => {
             <Helmet>
                 <title>{`Delivery and Returns | Ahigher`}</title>
             </Helmet>
-            <div>
+            <div className="not-found-page">
                 <h1>Delivery and Returns</h1>
             </div>
         </Layout>

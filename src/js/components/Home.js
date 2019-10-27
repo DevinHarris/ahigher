@@ -52,12 +52,12 @@ class Home extends React.Component {
                         </div>
                     </div>
                     
-                    <Hero bgImg="../public/img/oly-3.jpg" //bg-8
+                    {/* <Hero bgImg="../public/img/oly-3.jpg" //bg-8
                         heroText="The Olympics is coming."
                         description="An upcoming collection from Ahigher."
                         backgroundPos="0 30%"
                         contentAlign="flex-start"
-                    />
+                    /> */}
 
                     {/* <Hero bgImg="../public/img/bg-9.jpg" //bg-8
                         heroText="Be the underdog."

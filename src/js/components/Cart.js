@@ -125,7 +125,7 @@ class Cart extends React.Component {
                                                             </Link>
                                                             <p className="cart__item-size">{item.size}</p>
                                                             <p className="cart__item-price">{item.price}</p>
-                                                            <button className="cart__remove-btn" value={item.variantId} onClick={(e) => {this.handleRemoveItem(e.target.value)}}>Remove</button>
+                                                            {/* <button className="cart__remove-btn" value={item.variantId} onClick={(e) => {this.handleRemoveItem(e.target.value)}}>Remove</button> */}
                                                         </div>
                                                         
                                                     </div>
