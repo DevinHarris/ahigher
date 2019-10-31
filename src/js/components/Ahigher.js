@@ -15,6 +15,7 @@ import ScrollToTop from 'react-router-scroll-top';
 
 import data from '../data.json';
 import ProductContext from './ProductsContext';
+import Orders from './Orders';
 
 class Ahigher extends React.Component {
     state = {
@@ -93,6 +94,7 @@ class Ahigher extends React.Component {
                             <Route path="/your-order" component={CheckOrderStatus}/>
                             <Route path="/faq" component={FAQ} />
                             <Route path="/delivery" component={DeliverandReturns} />
+                            <Route path="/orders" component={Orders} />
                             <Route component={NotFoundPage} />
                         </Switch>
                     </ScrollToTop>

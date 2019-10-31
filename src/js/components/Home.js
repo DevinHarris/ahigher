@@ -51,13 +51,6 @@ class Home extends React.Component {
                             {/* <FeaturedItem mediaSrc="../public/img/IMG_1909.mp4" name="Breath of Life: Green / Purple Jacket" id="657456"  isVideo /> */}
                         </div>
                     </div>
-                    
-                    {/* <Hero bgImg="../public/img/oly-3.jpg" //bg-8
-                        heroText="The Olympics is coming."
-                        description="An upcoming collection from Ahigher."
-                        backgroundPos="0 30%"
-                        contentAlign="flex-start"
-                    /> */}
 
                     {/* <Hero bgImg="../public/img/bg-9.jpg" //bg-8
                         heroText="Be the underdog."
